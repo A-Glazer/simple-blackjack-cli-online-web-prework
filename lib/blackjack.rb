@@ -36,12 +36,12 @@ def hit(card_total)
     deal_card
   elsif "s"
     display_card_total
-else
+  else
   invalid_command
-  end
+end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
