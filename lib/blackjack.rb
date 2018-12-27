@@ -37,9 +37,8 @@ def hit(card_total)
   elsif "s"
     display_card_total
 else
-  
-  
-end
+  invalid_command
+  end
 
 def invalid_command
   # code invalid_command here
