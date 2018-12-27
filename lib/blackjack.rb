@@ -7,8 +7,7 @@ def deal_card
 end
 
 
-def display_card_total(new_card)
-  card_total = new_card
+def display_card_total(card_total)
     puts "Your cards add up to #{card_total}"
 end
 
