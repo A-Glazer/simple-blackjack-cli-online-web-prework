@@ -59,4 +59,4 @@ def runner
  #display_card_total(card_total)
 end
 end
-  return end_game
+  return end_game (card_total)
