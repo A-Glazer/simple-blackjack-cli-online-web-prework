@@ -57,7 +57,7 @@ def runner
  until card_total > 21
  next_round = hit?(card_total)
  #display_card_total(card_total)
-end
-end
+  end
   return end_game (card_total)
+  end
 end
